@@ -1,0 +1,96 @@
+body {
+	font-family: 'Anton', sans-serif;
+}
+h1 {
+	color: white;
+	font-size: 32px;
+	font-style: oblique;
+	text-align: center;
+	text-decoration: blink;
+	}
+
+	h2 { 
+	font- font-size: 32px; 
+	text-align: center;
+}
+
+}
+p {
+	color: ghostwhite;
+	font-weight: 50;
+	background-color: whitesmoke;
+	text-shadow: white;
+
+
+
+}
+
+a {
+	color: hotpink;
+	font-weight: bold;
+}
+
+.banner {
+	font-size: 24px;
+	opacity: 0.6;
+	margin-bottom: 80px;
+	background-image: url(images/hogwarts2.jpg);
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 200px;
+}
+
+.btn-yellow {
+	color:  white;
+	background-color: #095caa;
+	padding: 16px 40px 16px 40px;
+	border-radius: 16px;
+	text-align: center;
+	width: 64px;
+	margin: 32px;
+	text-decoration: none;
+
+}
+
+.btn-yellow:hover {
+	background-color: deeppink;
+
+}
+
+.card-white {
+	box-shadow: 0px 0px 16px darkblue;
+	width: 375px;
+	padding: 24px;
+	text-align: center;
+	margin: 4px;
+	border-radius: 4px;
+	background-color: white;
+}
+.cards {
+
+display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 32px;
+	background-color: white;
+}	
+
+.card-white img {
+	width: 375px;
+	height: 560px;
+	border-radius: 24px;
+}
+
+.container {
+	background-color: lightgrey;
+
+}
+
+.footer {
+	text-align: center;
+	text-decoration-style: wavy;
+	background-color: lightgrey;
+	color: purple;
+	height: 32px;
+}
